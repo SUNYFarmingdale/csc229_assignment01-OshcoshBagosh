@@ -45,15 +45,15 @@ public class Course {
     }
     //Overloading Constructor
     public Course(int i, String nm, String cd){
-        i = id;
-        nm = name;
-        cd = code;
+        id = i;
+        name = nm;
+        code = cd;
     }
 
     //sets the number of the id variable
     public void setID(int i)
     {
-        i = id;
+        id = i;
     }
 
     //returns the id number
@@ -65,7 +65,7 @@ public class Course {
     //sets the name with a string
     public void setName(String nm)
     {
-        nm = name;
+        name = nm;
     }
 
     //returns the name
@@ -77,7 +77,7 @@ public class Course {
     //sets code with a string
     public void setCode(String cd)
     {
-        cd = code;
+        code = cd;
     }
 
     //returns the code
