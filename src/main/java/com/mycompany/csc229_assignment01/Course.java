@@ -33,5 +33,57 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
+    private int id;
+    private String name;
+    private String code;
+
+    //Default Constructor
+    public Course(){
+        id = 0;
+        name = "no-name";
+        code = "no-code";
+    }
+    //Overloading Constructor
+    public Course(int i, String nm, String cd){
+        i = id;
+        nm = name;
+        cd = code;
+    }
+
+    //sets the number of the id variable
+    public void setID(int i)
+    {
+        i = id;
+    }
+
+    //returns the id number
+    public int getID()
+    {
+        return id;
+    }
+
+    //sets the name with a string
+    public void setName(String nm)
+    {
+        nm = name;
+    }
+
+    //returns the name
+    public String getName()
+    {
+        return name;
+    }
+
+    //sets code with a string
+    public void setCode(String cd)
+    {
+        cd = code;
+    }
+
+    //returns the code
+    public String getCode()
+    {
+        return code;
+    }
 
 }
